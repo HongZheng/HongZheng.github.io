@@ -81,7 +81,7 @@ function generateTableBody(name) {
                 case 5: {
                     tableData.innerHTML = `
 		        <div class="bar">
-                            <div style="animation:progress-${dataMap.get(name).popularity.split("%")[0]}-fill 100ms forwards">
+                            <div style="animation:progress-${dataMap.get(name).popularity.split("%")[0]}-fill 0ms forwards">
                                 <span>${dataMap.get(name).popularity}</span>
                             </div>
                         </div>`;
